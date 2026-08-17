@@ -4,5 +4,12 @@
 
     string? name = Console.ReadLine();
 
-    Console.WriteLine($"Hello, {name}!");
+    Console.WriteLine($"Hello, {name}! How old are you?");
+
+    if (!int.TryParse(Console.ReadLine(), out int age))
+    {
+        Console.WriteLine("Error!");
+    }
+
+    Console.WriteLine($"Great! You have {age} y.o.");
 }
