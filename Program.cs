@@ -14,4 +14,6 @@
     Console.WriteLine($"Great! You have {age} y.o. Do you want to verify your age?");
 
     Console.WriteLine($"Do you want to connect your location?");
+
+    int timeout = 60;
 }
