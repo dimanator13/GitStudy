@@ -15,5 +15,5 @@
 
     Console.WriteLine($"Do you want to connect your location?");
 
-    int timeout = 45;
+    int timeout = 60;
 }
